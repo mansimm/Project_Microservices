@@ -1,0 +1,4 @@
+1. config-server = 8888
+2. limit-service = 8080
+3. currency-exchange-service = 8081
+4. currency-converter = 8082 
