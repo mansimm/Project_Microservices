@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 //@FeignClient(name="currency-exchange-service", url="localhost:8081")
 /*removed url in below @FeignClient, bcoz once eureka server is configured url will be fetched from there
 name should match with spring.application.name of app whose services we are calling
-feign also does client side load balancing.
+feign also does client side load balancing and service invocation
 when 2 instances of currency-exchange-service are up it automatically load balanced request among them ie. 8001 and 8002
 (we can validate this by checking environment field in get currency-conversion-feign api output)
 * */

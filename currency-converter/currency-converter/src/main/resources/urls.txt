@@ -9,3 +9,13 @@ http://localhost:8082/currency-conversion/from/USD/to/INR/quantity/10
   "totalCalculatedAmount": 650.00,
   "environment": "8000 instance-id"
 }
+
+
+Currency-exchange url-
+
+http://localhost:8082/currency-conversion/feign/from/USD/to/INR/quantity/20
+
+Currency-exchange service using api gateway-
+
+http://localhost:8765/CURRENCY-EXCHANGE-SERVICE/currency-exchange/from/USD/to/INR
+http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR

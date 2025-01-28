@@ -6,6 +6,212 @@
 	},
 	"item": [
 		{
+			"name": "Load Balancer urls",
+			"item": [
+				{
+					"name": "CURRENCY-EXCHANGE-SERVICE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/CURRENCY-EXCHANGE-SERVICE/currency-exchange/from/USD/to/INR",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"CURRENCY-EXCHANGE-SERVICE",
+								"currency-exchange",
+								"from",
+								"USD",
+								"to",
+								"INR"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "currency-exchange-service",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-exchange-service",
+								"currency-exchange",
+								"from",
+								"USD",
+								"to",
+								"INR"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "gateway currency-exchange-service",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-exchange/from/USD/to/INR",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-exchange",
+								"from",
+								"USD",
+								"to",
+								"INR"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CURRENCY-CONVERTER",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/CURRENCY-CONVERTER/currency-conversion/feign/from/USD/to/INR/quantity/20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"CURRENCY-CONVERTER",
+								"currency-conversion",
+								"feign",
+								"from",
+								"USD",
+								"to",
+								"INR",
+								"quantity",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "gateway currency-conversion-new",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-conversion-new",
+								"from",
+								"USD",
+								"to",
+								"INR",
+								"quantity",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "gateway currency-converter feign Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-conversion/feign/from/USD/to/INR/quantity/20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-conversion",
+								"feign",
+								"from",
+								"USD",
+								"to",
+								"INR",
+								"quantity",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "gateway currency-converter",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-conversion/from/USD/to/INR/quantity/20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-conversion",
+								"from",
+								"USD",
+								"to",
+								"INR",
+								"quantity",
+								"20"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "currency-converter Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8765/currency-converter/currency-conversion/feign/from/USD/to/INR/quantity/20",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"currency-converter",
+								"currency-conversion",
+								"feign",
+								"from",
+								"USD",
+								"to",
+								"INR",
+								"quantity",
+								"20"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "get currency-exchange",
 			"request": {
 				"method": "GET",
