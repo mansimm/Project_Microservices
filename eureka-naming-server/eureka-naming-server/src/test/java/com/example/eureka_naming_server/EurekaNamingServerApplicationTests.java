@@ -1,10 +1,10 @@
-package com.example.currency_exchange_service;
+package com.example.eureka_naming_server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CurrencyExchangeServiceApplicationTests {
+class EurekaNamingServerApplicationTests {
 
 	@Test
 	void contextLoads() {

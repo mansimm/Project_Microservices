@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "2df04c66-da87-49cc-ba14-94a72d739753",
+		"name": "Project_microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get currency-exchange",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/currency-exchange/from/USD/to/INR",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"currency-exchange",
+						"from",
+						"USD",
+						"to",
+						"INR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get currency-conversion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/currency-conversion/from/USD/to/INR/quantity/1080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"currency-conversion",
+						"from",
+						"USD",
+						"to",
+						"INR",
+						"quantity",
+						"1080"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get currency-conversion feign",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/currency-conversion/feign/from/USD/to/INR/quantity/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"currency-conversion",
+						"feign",
+						"from",
+						"USD",
+						"to",
+						"INR",
+						"quantity",
+						"20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

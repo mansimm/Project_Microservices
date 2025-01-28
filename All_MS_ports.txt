@@ -1,4 +1,6 @@
 1. config-server = 8888
 2. limit-service = 8080
-3. currency-exchange-service = 8081
+3. currency-exchange-service = 8001
+3. currency-exchange-service = 8002 second instace configured (-Dserver.port=8002)
 4. currency-converter = 8082 
+5. eureka-server = 8761
