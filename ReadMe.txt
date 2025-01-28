@@ -1,3 +1,5 @@
+# Microservices using Springboot
+
 1. Eureka server - naming server for service registration and discovery
 2. Eureka client - need to add in all MS, to register it with eureka server
 3. Feign client - client side load balancing, use to call API of other MS (service invocation)[Ribbon comes with feign, ribbon is used for client side load balancing]
