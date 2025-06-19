@@ -5,6 +5,8 @@
 3. Feign client - client side load balancing, use to call API of other MS (service invocation)[Ribbon comes with feign, ribbon is used for client side load balancing]
 4. Spring cloud gateway - use to route to API, provide cross cutting concerns, previously Zuul was used which is no longer available
 5. Spring cloud config server - centralise configuration for all microservices
+6. Resilience4j - use for fault tolerence, implement circuit breaker pattern (need to add actuator, aop and resilience4j-spring-boot2 starter dependencies)
+7. zipkin: use for distributed tracing [use 2.2 or above versions for zipkin]
 
 
 Note: 
