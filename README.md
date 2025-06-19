@@ -12,3 +12,10 @@
 Note: 
 1. Hystrix is used for fault tolerance, it implements circuit breaker design pattern
 2. Resilience4j is new framework inspired from hystrix, it also implements fault tolerance
+3. in spring boot 2, for distributed tracing following is used =
+   sleuth > brave > zipkin
+   in spring boot 3 following is used =
+   Micrometer > Opentelemeter > zipkin
+   sleuth can handle traces only, but micrometer can handle logs, metrics and traces
+   
+   V4- with zipkin(pending to autocanfigure resttemplate so it can be traced too, and rest template call not working for conversion)
